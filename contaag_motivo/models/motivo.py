@@ -1,5 +1,4 @@
-# -*- coding: utf-8 -*-
-
+import odoo import models, fields
 
 class StockpickingInherit(models.Model):
     _inherit = "stock.picking"
