@@ -8,7 +8,7 @@
     'author': 'Ing. Hermes Colina',
     'Category': 'Inventario',
     'Version': '1.0',
-    'depends': ['base', 'stock.picking'],
+    'depends': ['base'],
 
     'demo': [
     ],
