@@ -9,15 +9,9 @@
     'Category': 'Inventario',
     'Version': '1.0',
     'depends': ['base'],
-
-    'demo': [
+    'data': [
+        
+        'view/motivo_view.xml',
     ],
-    "data": [
-        'view/motivo.xml',
-    ],
-    'test': [
-
-    ]
     
-
 }
