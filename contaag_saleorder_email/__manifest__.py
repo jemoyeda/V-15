@@ -15,7 +15,7 @@
     
     #Siempre se debe agregar los módulos de los que depende el nuevo módulo para evitar errores
     #inesperados. (Ej. TypeError, ¡tal módulo no existe!)
-    'depends': ['base', 'sale.order'],
+    'depends': ['base'],
 
     #Agregar primero los wizard para prevenir errores de compilación.
     
@@ -27,7 +27,7 @@
     # always loaded
     'data': [
         # 'security/ir.model.access.csv',
-        'views/email.XML',
+        'views/email.xml',
     ],
 
     # only loaded in demonstration mode
