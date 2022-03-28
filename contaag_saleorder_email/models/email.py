@@ -1,6 +1,6 @@
 from odoo import models, fields
 
-class email(models.model):
+class email(models.Model):
     _inherit = 'sale.order'
 
     email = fields.Char(string='Correo electronico')
